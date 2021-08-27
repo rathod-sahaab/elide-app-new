@@ -62,7 +62,8 @@
     "clean": "gatsby clean",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy": "yarn clean && gatsby build --prefix-paths && gh-pages -d public -r https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/rathod-sahaab/elide-app-new",
   },
   "repository": {
     "type": "git",
