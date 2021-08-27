@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: "Elide: Make URLs simpler!",
+    siteUrl: `https://elide.me`,
+    description: `Make your URLs do more, easily`,
+    author: `@rathod-sahaab`,
   },
+  pathPrefix: "/elide-app-new",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
